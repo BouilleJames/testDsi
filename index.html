@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-sclalable="0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- **********************************Menu Burger***************************************** -->
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+    <header class="header">
+        <div class="header__logo">
+            <img src="logoDsiMed.png" alt="logo Dsi Méditerannée" />
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav__close" onclick="closeMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+            <ul class="header__nav__menu">
+                <li class="header__nav__menu__link">
+                    <a href="#">nos sensibilisations</a>
+                </li>
+                <li class="header__nav__menu__link">
+                    <a href="#">nos métiers</a>
+                </li>
+                <li class="header__nav__menu__link">
+                    <a href="#">vos avantages</a>
+                </li>
+                <li class="header__nav__menu__link">
+                    <a href="#">nous connaitre</a>
+                </li>
+                <li class="header__nav__menu__link">
+                    <a href="#">actualités</a>
+                </li>
+                <li class="header__nav__menu__link">
+                    <a href="#">contacter</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="header__burger" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+    </header>
+
+
+
+
+    <!-- *******************************BANNIERE********************************************* -->
+    <div class="banniere">
+        <div class="cda">
+            <div id="floatLeft">
+                <h1 class="colorText"><span>CDA </span>SOPHIA 2023</h1>
+                <p class="colorText">
+                    Notre organisation peut aider les employeurs et
+                    les employés à naviguer sur les questions liées au
+                    handicap au travail et à trouver des solutions pour
+                    créer un environnement de travail plus inclusif.
+                </p>
+            </div>
+            <div id="containerImg"><img id="imgReunion" src="imgReunion.PNG" alt="img d'une réunion" /></div>
+        </div>
+
+    </div>
+    <!-- *****************************CONTAINER************************************** -->
+    <main class="container">
+        <div class="boxCentrale shadow box b1"><a href="#">
+                <p class="colorText">qu'est-ce qu'une entreprise adaptée</p>
+            </a></div>
+        <div class="boxCentrale shadow box b2"><a href="#">
+                <p class="colorText">le role du référent handicap</p>
+            </a></div>
+        <div class="boxCentrale shadow box b3"><a href="#">
+                <p class="colorText">méthode d'intégration</p>
+            </a></div>
+        <div class="boxCentrale shadow box b4"><a href="#">
+                <p class="colorText">particularité du recrutement</p>
+            </a></div>
+        <h2 id="titreCentral">découvrez nos conseils</h2>
+        <div class="boxCentrale shadow box b5"><a href="#">
+                <p class="colorText">le maintien dans l'emploi</p>
+            </a></div>
+        <div class="boxCentrale shadow box b6"><a href="#">
+                <p class="colorText">l'oeth</p>
+            </a></div>
+        <div class="boxCentrale shadow box b7"><a href="#">
+                <p class="colorText">le handicap au travail</p>
+            </a></div>
+        <div class="boxCentrale shadow box b8"><a href="#">
+                <p class="colorText">le handicap</p>
+            </a></div>
+        <div class="graphic">
+            <img id="camembert" src="camembert.PNG" alt="statistiques avec camembert graphique" />
+            <!-- <img id="camembertMobile" src="charts_mobile.jpg" alt="statistiques avec camembert graphique" srcset="camembert.PNG 847w, charts_mobile.jpg 853w" /> -->
+        </div>
+    </main>
+    <footer>
+        <div id="contact" class="downLeft">
+            <h2 id="sansSerif">CONTACTEZ NOUS</h2>
+            <p>80 Route des Lucioles</p>
+            <p>Les Espaces de Sophia</p>
+            <p>Batiment K</p>
+            <p>06560 VALBONNE</p>
+            <p id="tel">Tél: 05 62 74 10 00</p>
+            <p><a id="lienDsi" href="accueil@dsi-ap.com">accueil@dsi-ap.com</a></p>
+            <div id="iconContainer">
+                <div><a class="icon" href="https://www.facebook.com/distributionservicesindustrielsmed/"><i class="fa-brands fa-facebook-f"></i></a></div>
+                <div id="spaceIcon"><a class="icon" href="https://twitter.com/DsiMediterranee"><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a class="icon" href="https://fr.linkedin.com/company/dsi-m%C3%A9diterran%C3%A9e-entreprise-adapt%C3%A9e-et-solidaire"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            </div>
+        </div>
+        <div id="ligneSeparator"><span></span></div>
+        <div id="formulaire" class="downRight">
+            <form method="post" action="traitement.php">
+                <div class="group"><label for="name">Nom Prénom</label>
+                    <input type="text" name="" id="name"></div>
+                <div class="group"><label for="entreprise">Entreprise</label>
+                    <input type="text" name="" id="entreprise"></div>
+                <div class="group"><label for="mail">Email</label>
+                    <input type="text" name="" id="mail"></div>
+                <div class="group"><input class="button" type="submit" value="Envoyer"></div>
+            </form>
+        </div>
+    </footer>
+
+    <script>
+        function openMenuMobile() {
+            document.querySelector('.header__nav').classList.add('open');
+            document.querySelector('.overlay-menu-mobile').classList.add('open');
+        }
+
+        function closeMenuMobile() {
+            document.querySelector('.header__nav').classList.remove('open');
+            document.querySelector('.overlay-menu-mobile').classList.remove('open');
+        }
+    </script>
+</body>
+</html>
